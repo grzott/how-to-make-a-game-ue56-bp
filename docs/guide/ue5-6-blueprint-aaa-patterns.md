@@ -4,6 +4,24 @@ This section distills modern patterns used in large UE projects—translated for
 
 > Reader profile: Experienced CG artist, junior UE 5.6 UI, no programming background. Each pattern includes a "What/Why", a production recipe, and pitfalls.
 
+## Copy-paste feature slice template
+
+- What/Why: `[1–2 sentences explaining the goal]`
+- Prereqs: `[plugins, project settings]`
+- Steps:
+  1) `[create DataAssets]`
+  2) `[add Components to thin Actors]`
+  3) `[define Interfaces for cross-talk]`
+  4) `[add Subsystem events]`
+  5) `[bind UI via MVVM ViewModels]`
+  6) `[async load heavy assets via soft refs]`
+  7) `[save hooks if needed]`
+  8) `[functional test map + steps]`
+- Data: `[PDA fields, tags, attributes]`
+- Networking: `[authority/replication notes]`
+- Performance: `[avoid tick; timers/events/async]`
+- Testing: `[how you’ll validate quickly]`
+
 ## Core architectural ideas
 
 - Composition over inheritance

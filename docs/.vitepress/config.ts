@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "UE5.6 Blueprint AAA Guide",
   description:
-    "Professional patterns and workflows for building a AAA-quality game in Unreal Engine 5.6 using Blueprints only.",
+    "AAA production patterns for Unreal Engine 5.6 using Blueprints only—written for CG artists, no C++ required.",
   base: process.env.DOCS_BASE || "/",
   themeConfig: {
     nav: [
@@ -27,6 +27,8 @@ export default defineConfig({
       "/": [{ text: "Home", link: "/" }],
     },
     outline: "deep",
-    socialLinks: [{ icon: "github", link: "https://github.com/USER/REPO" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/grzott/how-to-make-a-game-ue56-bp" },
+    ],
   },
 });

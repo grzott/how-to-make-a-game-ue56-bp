@@ -45,3 +45,11 @@ Notes
 - Use soft references and async loading for heavy assets; avoid global hard references.
 - For large worlds, use World Partition and One File Per Actor to enable team parallelism.
 - Keep Widgets dumb; use MVVM ViewModels to hold state and react to game events.
+
+## Quick glossary (CG → Gameplay)
+
+- Primary Data Asset (PDA): A data-only asset that stores tunable settings (like a Material Instance for logic). Blueprints read values from it at runtime.
+- Soft Reference: A pointer by path, not loaded until needed (like referencing a texture without importing it into your current scene).
+- Subsystem: A global or per-world service you can query from anywhere (think of it as a manager that isn’t tied to a single level or actor).
+- Gameplay Tag: A typed label for state/events (e.g., State.Combat, Ability.Stunned) used for queries and rules instead of boolean spaghetti.
+- MVVM: UI architecture where ViewModels hold data and events; Widgets just display. Avoid game logic in widgets.

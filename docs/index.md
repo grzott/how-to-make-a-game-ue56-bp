@@ -1,11 +1,11 @@
 # UE5.6 Blueprint AAA Guide
 
-A practical, pattern-driven blueprint for building a modern AAA-quality game in Unreal Engine 5.6 using Blueprints only.
+Build a modern AAA‑quality game in Unreal Engine 5.6 using Blueprints only—no C++ required.
 
-- Audience: experienced CG generalists (modeling, materials, baking, lighting, rendering, typography, 2D/3D animation, keying, compositing, roto, tracking, TyFlow/Phoenix/RealFlow/RailClone/3ds Max particles), with junior familiarity with UE 5.6 UI and no programming experience.
-- Goal: provide clear, reusable patterns and workflows that scale to studio-grade production.
+- Audience: Experienced CG artists (modeling, texturing, baking, lighting, rendering, typography, 2D/3D animation, keying, compositing, roto, tracking, TyFlow/Phoenix/RealFlow/RailClone/3ds Max particles) with junior UE 5.6 UI experience and no programming background.
+- Goal: Clear, step‑by‑step patterns and workflows that scale to studio production.
 
-Start with the Guide, then refer to LLM Instructions when co-authoring or generating content with Copilot or other LLM tools.
+Start here
 
 - Guide: /guide/
 - UE5.6 Essentials: /guide/ue56-essentials
