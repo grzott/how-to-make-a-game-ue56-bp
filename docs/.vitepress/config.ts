@@ -22,6 +22,8 @@ export default defineConfig({
   { text: "UI (MVVM) Blueprint Patterns", link: "/guide/ui-mvvm-blueprint-patterns" },
   { text: "Data Assets & Asset Manager", link: "/guide/data-assets-asset-manager" },
   { text: "Save/Load Service (Blueprint)", link: "/guide/save-load-service-blueprint" },
+  { text: "Interaction (Trace + Interface)", link: "/guide/interaction-trace-interface-blueprint" },
+  { text: "Inventory (DataAssets + Replication)", link: "/guide/inventory-dataassets-replication-blueprint" },
       ],
       "/llm/": [
         { text: "General LLM Instructions", link: "/llm/general.instructions" },
