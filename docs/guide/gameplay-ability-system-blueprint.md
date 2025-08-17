@@ -1,16 +1,5 @@
 # Gameplay Ability System (GAS) in Blueprints
 
-## 🎥 **Complete GAS Tutorial**
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://www.youtube.com/embed/YvXvWa6vbj4" 
-          title="Complete Gameplay Ability System Tutorial - Unreal Engine Blueprint Implementation" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen></iframe>
-</div>
-
 ## 📚 **Official Documentation & Resources**
 
 ### **Core GAS Documentation:**

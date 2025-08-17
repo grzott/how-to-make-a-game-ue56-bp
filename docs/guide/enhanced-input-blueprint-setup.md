@@ -1,16 +1,5 @@
 # Enhanced Input: Blueprint setup (contexts, actions, triggers)
 
-## 🎥 **Video Tutorial**
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://www.youtube.com/embed/1Rm1IDKcsBE" 
-          title="Enhanced Input System Complete Guide - Unreal Engine 5.6" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen></iframe>
-</div>
-
 :::tip Official Tutorial by Epic Games
 This comprehensive video tutorial covers the complete Enhanced Input system implementation from Epic Games themselves. **Key timestamps:**
 - `01:30` - Enhanced Input Overview

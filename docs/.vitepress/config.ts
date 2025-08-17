@@ -29,6 +29,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
+      { text: "Practical Solutions", link: "/solutions/" },
       { text: "LLM & AI", link: "/llm/" },
       { text: "Glossary", link: "/glossary/" },
       { text: "Support", link: "/support" },
@@ -112,6 +113,10 @@ export default defineConfig({
             {
               text: "Animation Blueprint Patterns",
               link: "/guide/animation-blueprint-patterns",
+            },
+            {
+              text: "Teleportation System",
+              link: "/guide/teleportation-system-blueprint",
             },
           ],
         },
@@ -285,6 +290,59 @@ export default defineConfig({
               link: "/llm/team-collaboration",
             },
             { text: "Future Technologies", link: "/llm/future-technologies" },
+          ],
+        },
+      ],
+      "/solutions/": [
+        {
+          text: "🔧 Core Systems",
+          items: [
+            { text: "Overview", link: "/solutions/" },
+            { text: "Save & Load System", link: "/solutions/save-load-system" },
+            { text: "Day & Night Cycle", link: "/solutions/day-night-cycle" },
+            { text: "Teleportation System", link: "/solutions/teleportation" },
+            { text: "Game Settings Manager", link: "/solutions/game-settings" },
+            { text: "Audio Manager", link: "/solutions/audio-manager" },
+          ],
+        },
+        {
+          text: "🎮 Interaction Systems",
+          items: [
+            { text: "Interaction System", link: "/solutions/interaction-system" },
+            { text: "Pickup & Collection", link: "/solutions/pickup-system" },
+            { text: "Door & Lock System", link: "/solutions/door-lock-system" },
+            { text: "Button & Switch System", link: "/solutions/button-switch-system" },
+            { text: "Container System", link: "/solutions/container-system" },
+          ],
+        },
+        {
+          text: "📋 Adventure Mechanics",
+          items: [
+            { text: "Inventory System", link: "/solutions/inventory-system" },
+            { text: "Quest System", link: "/solutions/quest-system" },
+            { text: "Dialog System", link: "/solutions/dialog-system" },
+            { text: "Journal & Notes", link: "/solutions/journal-system" },
+            { text: "Map & Navigation", link: "/solutions/map-system" },
+          ],
+        },
+        {
+          text: "🌍 World Systems",
+          items: [
+            { text: "Weather System", link: "/solutions/weather-system" },
+            { text: "NPC Behavior", link: "/solutions/npc-behavior" },
+            { text: "Puzzle Framework", link: "/solutions/puzzle-system" },
+            { text: "Secret Areas", link: "/solutions/secret-areas" },
+            { text: "Collectible System", link: "/solutions/collectible-system" },
+          ],
+        },
+        {
+          text: "⚔️ Action Systems",
+          items: [
+            { text: "Health & Damage", link: "/solutions/health-combat" },
+            { text: "Stamina System", link: "/solutions/stamina-system" },
+            { text: "Tool System", link: "/solutions/tool-system" },
+            { text: "Crafting System", link: "/solutions/crafting-system" },
+            { text: "Magic System", link: "/solutions/magic-system" },
           ],
         },
       ],

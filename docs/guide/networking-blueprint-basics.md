@@ -1,16 +1,5 @@
 # Networking Basics (Blueprint)
 
-## 🎥 **Multiplayer Blueprint Foundation**
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-          src="https://www.youtube.com/embed/JOJP0CvpB8w" 
-          title="Complete Blueprint Multiplayer Tutorial - Networking Basics in UE5" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen></iframe>
-</div>
-
 ## 📚 **Networking Documentation & Resources**
 
 ### **Core Networking Concepts:**

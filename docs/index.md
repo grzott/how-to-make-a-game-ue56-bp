@@ -25,7 +25,7 @@ hero:
 features:
   - icon: 🚀
     title: Complete UE5.6 Mastery
-    details: 30 comprehensive guides covering every modern UE5.6 system—from Nanite/Lumen to Mass Entity framework, all using Blueprint-only approaches.
+    details: 31 comprehensive guides covering every modern UE5.6 system—from Nanite/Lumen to Mass Entity framework, all using Blueprint-only approaches.
 
   - icon: 🤖
     title: Revolutionary AI Integration
@@ -67,7 +67,7 @@ This isn't just another UE5 tutorial collection. This is a **complete transforma
 
 <div class="stats-grid">
   <div class="stat-item">
-    <div class="stat-number">30</div>
+    <div class="stat-number">31</div>
     <div class="stat-label">Comprehensive Guides</div>
   </div>
   <div class="stat-item">
@@ -315,14 +315,45 @@ The AI integration alone typically pays for itself within the first sprint throu
 
 ---
 
-## 🌟 **Start Your Journey Today**
+## 🌟 Start Your Journey Today
 
-Ready to transform your game development with cutting-edge AI integration and production-proven patterns?
-
-<div class="cta-buttons">
-  <a href="/guide/" class="cta-primary">🚀 Begin Complete Guide</a>
-  <a href="/llm/getting-started" class="cta-secondary">🤖 Try AI Integration</a>
-  <a href="/glossary/" class="cta-tertiary">📖 Browse Reference</a>
+<div class="journey-grid">
+  <div class="journey-card primary">
+    <div class="journey-header">
+      <span class="journey-icon">🚀</span>
+      <h3>Complete Guide</h3>
+    </div>
+    <p>31 comprehensive guides covering all UE5.6 systems</p>
+    <a href="/guide/" class="journey-btn">Start Learning</a>
+  </div>
+  
+  <div class="journey-card featured">
+    <div class="journey-header">
+      <span class="journey-icon">🤖</span>
+      <h3>AI Integration</h3>
+      <span class="popular-badge">Popular</span>
+    </div>
+    <p>Revolutionary AI-powered development workflows</p>
+    <a href="/llm/getting-started" class="journey-btn">Try AI Now</a>
+  </div>
+  
+  <div class="journey-card">
+    <div class="journey-header">
+      <span class="journey-icon">🔧</span>
+      <h3>Practical Solutions</h3>
+    </div>
+    <p>Ready-to-use systems for adventure games</p>
+    <a href="/solutions/" class="journey-btn">Explore Solutions</a>
+  </div>
+  
+  <div class="journey-card">
+    <div class="journey-header">
+      <span class="journey-icon">📖</span>
+      <h3>Quick Reference</h3>
+    </div>
+    <p>Terminology, patterns, and performance metrics</p>
+    <a href="/glossary/" class="journey-btn">Browse Reference</a>
+  </div>
 </div>
 
 <style>
@@ -356,60 +387,87 @@ Ready to transform your game development with cutting-edge AI integration and pr
   font-weight: 500;
 }
 
-.cta-buttons {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 48px 0;
+/* Simplified Journey Grid */
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.cta-primary, .cta-secondary, .cta-tertiary {
-  padding: 16px 32px;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  text-align: center;
-  transition: all 0.3s ease;
-  min-width: 200px;
-}
-
-.cta-primary {
-  background: var(--vp-c-brand-1);
-  color: white;
-  border: 2px solid var(--vp-c-brand-1);
-}
-
-.cta-primary:hover {
-  background: var(--vp-c-brand-2);
-  border-color: var(--vp-c-brand-2);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-}
-
-.cta-secondary {
-  background: transparent;
-  color: var(--vp-c-brand-1);
-  border: 2px solid var(--vp-c-brand-1);
-}
-
-.cta-secondary:hover {
-  background: var(--vp-c-brand-1);
-  color: white;
-  transform: translateY(-2px);
-}
-
-.cta-tertiary {
+.journey-card {
   background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  border: 2px solid var(--vp-c-divider);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-.cta-tertiary:hover {
-  background: var(--vp-c-bg-elv);
-  border-color: var(--vp-c-brand-1);
-  color: var(--vp-c-brand-1);
+.journey-card:hover {
   transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-color: var(--vp-c-brand-1);
+}
+
+.journey-card.featured {
+  border-color: var(--vp-c-brand-1);
+}
+
+.journey-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.journey-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.journey-icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.popular-badge {
+  background: var(--vp-c-brand-1);
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.journey-card p {
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0 0 20px 0;
+}
+
+.journey-btn {
+  display: inline-block;
+  background: var(--vp-c-brand-1);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.journey-btn:hover {
+  background: var(--vp-c-brand-2);
 }
 
 details {
@@ -458,13 +516,13 @@ details strong {
     font-size: 36px;
   }
   
-  .cta-buttons {
-    flex-direction: column;
-    align-items: center;
+  .journey-options {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
   
-  .cta-primary, .cta-secondary, .cta-tertiary {
-    min-width: 250px;
+  .journey-card {
+    padding: 20px;
   }
 }
 </style>
