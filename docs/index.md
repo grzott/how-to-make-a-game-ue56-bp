@@ -26,23 +26,23 @@ features:
   - icon: 🚀
     title: Complete UE5.6 Mastery
     details: 29 comprehensive guides covering every modern UE5.6 system—from Nanite/Lumen to Mass Entity framework, all using Blueprint-only approaches.
-    
+
   - icon: 🤖
     title: Revolutionary AI Integration
     details: Industry-first AI/LLM framework with 16 specialized pages covering everything from editor integration to custom model training for game development.
-    
+
   - icon: 🎯
     title: AAA Production Ready
     details: Battle-tested patterns from 30+ years of industry experience. Concrete performance budgets, CI/CD pipelines, and enterprise workflows.
-    
+
   - icon: 📚
     title: CG Artist Focused
     details: Written specifically for experienced artists transitioning to game development. No programming background required—visual thinking approach.
-    
+
   - icon: ⚡
     title: Proven Performance
     details: Concrete optimization strategies with measurable results. Platform-specific budgets (Mobile 2GB, Console 8GB, PC 16GB+) and profiling workflows.
-    
+
   - icon: 🌐
     title: Advanced Networking
     details: Production multiplayer patterns with client prediction, lag compensation, and seamless world architecture for large-scale experiences.
@@ -63,7 +63,7 @@ This isn't just another UE5 tutorial collection. This is a **complete transforma
 
 <div class="stats-grid">
   <div class="stat-item">
-    <div class="stat-number">29</div>
+    <div class="stat-number">30</div>
     <div class="stat-label">Comprehensive Guides</div>
   </div>
   <div class="stat-item">
@@ -71,7 +71,7 @@ This isn't just another UE5 tutorial collection. This is a **complete transforma
     <div class="stat-label">AI Integration Pages</div>
   </div>
   <div class="stat-item">
-    <div class="stat-number">200+</div>
+    <div class="stat-number">250+</div>
     <div class="stat-label">Production Patterns</div>
   </div>
   <div class="stat-item">
@@ -83,34 +83,39 @@ This isn't just another UE5 tutorial collection. This is a **complete transforma
 ## 🚀 **Quick Start Paths**
 
 ### For CG Artists New to Game Development
+
 1. **[UE5.6 Essentials](/guide/ue56-essentials)** - Learn the official terminology and core concepts
 2. **[AAA Blueprint Patterns](/guide/ue5-6-blueprint-aaa-patterns)** - Production-proven architectural patterns
 3. **[AI-Powered Development](/llm/getting-started)** - Accelerate learning with AI assistance
 
 ### For Developers Upgrading to UE5.6
+
 1. **[Advanced UE5.6 Systems](/guide/nanite-lumen-blueprint-integration)** - Nanite, Lumen, Mass Entity
 2. **[Performance Optimization](/guide/performance-budgets-profiling-blueprint)** - Concrete budgets and profiling
 3. **[Production Pipeline](/guide/production-pipeline-blueprint-cicd)** - Enterprise CI/CD workflows
 
 ### For Teams Adopting AI
+
 1. **[AI Integration Overview](/llm/)** - Complete AI/LLM framework
 2. **[UE5.6 Editor Integration](/llm/ue56-editor-integration)** - Direct AI assistance in editor
 3. **[Team Collaboration](/llm/team-collaboration)** - AI-enhanced team workflows
 
 ## 🏆 **Industry Recognition**
 
-> *"This represents the most comprehensive AI-integrated game development resource available. The combination of technical depth and cutting-edge AI workflows is unprecedented."*
-> 
+> _"This represents the most comprehensive AI-integrated game development resource available. The combination of technical depth and cutting-edge AI workflows is unprecedented."_
+>
 > — **Expert Review, 30+ Years AAA Experience**
 
 ### What Industry Leaders Say:
 
 **Technical Excellence (S++ Grade 9.4/10):**
+
 - Complete UE5.6 system coverage with production patterns
 - Revolutionary AI integration framework
 - Concrete performance standards and optimization strategies
 
 **Innovation Leadership:**
+
 - First comprehensive AI/LLM integration for game development
 - Industry-defining patterns for next-generation development
 - Future-proof architecture ready for emerging technologies
@@ -118,18 +123,22 @@ This isn't just another UE5 tutorial collection. This is a **complete transforma
 ## 📚 **Content Highlights**
 
 ### 🎮 **Game Systems Mastery**
+
+- **Blueprint Clean Code**: DRY, KISS, SOLID principles for visual scripting excellence
 - **Enhanced Input Advanced**: Player Mappable Configs, Chorded Actions, Input Debugging
-- **Gameplay Ability System**: Production combo systems, scalable attributes, dynamic abilities  
+- **Gameplay Ability System**: Production combo systems, scalable attributes, dynamic abilities
 - **Networking Excellence**: Client prediction, lag compensation, seamless world travel
 - **Performance Engineering**: VM optimization, memory budgets, profiling workflows
 
 ### 🤖 **AI Integration Revolution**
+
 - **Natural Language to Blueprint**: Convert plain English to complete Blueprint systems
 - **Intelligent Debugging**: Context-aware problem solving and optimization
 - **Asset Creation**: AI-powered texture, 3D model, and audio generation
 - **Team Collaboration**: AI-enhanced workflows for enterprise development
 
 ### 🚀 **Advanced UE5.6 Features**
+
 - **Nanite/Lumen Control**: Dynamic quality scaling and performance optimization
 - **Mass Entity Framework**: High-performance crowd systems and ECS patterns
 - **World Streaming**: Large-scale seamless world architecture
@@ -138,18 +147,21 @@ This isn't just another UE5 tutorial collection. This is a **complete transforma
 ## 💼 **For Different Team Sizes**
 
 ### **Solo Developers & Indies**
+
 - Complete systems you can implement immediately
 - AI assistance reduces development time by 40-60%
 - Performance optimization without dedicated technical artists
 - Production workflows that scale as your team grows
 
 ### **Small-Medium Studios (5-50 people)**
+
 - Team collaboration patterns with AI integration
 - Standardized workflows and quality assurance
 - Performance budgets and optimization strategies
 - Knowledge sharing and onboarding acceleration
 
 ### **AAA Studios & Enterprise**
+
 - Enterprise-grade CI/CD pipeline integration
 - Advanced networking for large-scale multiplayer
 - Custom AI model training for specialized workflows
@@ -165,6 +177,7 @@ This isn't just another UE5 tutorial collection. This is a **complete transforma
 **Yes, absolutely.** Every system, pattern, and workflow in this guide uses Blueprints exclusively. We specifically focus on UE5.6's advanced Blueprint capabilities and show how to achieve AAA-quality results without writing a single line of C++ code.
 
 The guide is written for CG artists who want to transition into game development while leveraging their existing visual thinking skills.
+
 </details>
 
 <details>
@@ -179,6 +192,7 @@ The guide is written for CG artists who want to transition into game development
 - **Team Workflows**: AI-enhanced collaboration and knowledge sharing
 
 The AI section includes 16 specialized pages covering everything from basic setup to custom model training for enterprise use.
+
 </details>
 
 <details>
@@ -193,6 +207,7 @@ The AI section includes 16 specialized pages covering everything from basic setu
 5. **Battle-Tested**: Patterns proven in shipping AAA games, not just theoretical concepts
 
 This complements official documentation by providing the "how to use it in production" that's often missing from technical references.
+
 </details>
 
 <details>
@@ -206,6 +221,7 @@ This complements official documentation by providing the "how to use it in produ
 - **Team Leads**: Production workflows, performance standards, and enterprise patterns
 
 Each section clearly indicates complexity level and prerequisites, so you can start where you're comfortable and progress at your own pace.
+
 </details>
 
 <details>
@@ -220,6 +236,7 @@ Each section clearly indicates complexity level and prerequisites, so you can st
 - Performance targets are calibrated for current hardware (2025 standards)
 
 Content is regularly updated to maintain relevance with engine updates and industry evolution.
+
 </details>
 
 <details>
@@ -228,12 +245,14 @@ Content is regularly updated to maintain relevance with engine updates and indus
 **Absolutely.** All patterns, workflows, and techniques are designed for commercial production use. Many are currently used in shipping AAA games.
 
 The guide specifically focuses on:
+
 - Performance standards suitable for commercial release
 - Team workflows that scale to studio production
 - Quality assurance patterns for commercial quality
 - Enterprise-grade CI/CD and deployment strategies
 
 You're encouraged to use everything in your commercial projects.
+
 </details>
 
 <details>
@@ -247,6 +266,7 @@ You're encouraged to use everything in your commercial projects.
 4. **Quick Reference**: Check the [Glossary](/glossary/) for terminology
 
 Each path includes step-by-step instructions and can be completed in 15-30 minutes to get immediate results.
+
 </details>
 
 <details>
@@ -261,6 +281,7 @@ Each path includes step-by-step instructions and can be completed in 15-30 minut
 - **Accelerated onboarding** (3-6 months → 1-2 months for new team members)
 
 The AI integration alone typically pays for itself within the first sprint through accelerated development velocity.
+
 </details>
 
 ---
@@ -268,18 +289,21 @@ The AI integration alone typically pays for itself within the first sprint throu
 ## 🛠 **Technical Requirements**
 
 ### **Minimum Setup**
+
 - **UE 5.6+** (latest version recommended)
 - **AI Service Access** (GPT-4, Claude 3.5, or Gemini Pro)
 - **Basic Hardware** (capable of running UE5.6 smoothly)
 - **15 minutes** for initial AI integration setup
 
 ### **Recommended Setup**
+
 - **UE 5.6 with all features enabled** (Nanite, Lumen, etc.)
 - **Multiple AI service accounts** for comparative results
 - **Dual monitor setup** for optimal AI-assisted development
 - **Version control system** (Git recommended)
 
 ### **Enterprise Setup**
+
 - **Custom AI API integration** for team workflows
 - **CI/CD pipeline** for automated quality assurance
 - **Performance monitoring tools** (Unreal Insights integration)

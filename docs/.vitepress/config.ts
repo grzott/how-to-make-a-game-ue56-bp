@@ -40,6 +40,10 @@ export default defineConfig({
               text: "AAA Blueprint Patterns",
               link: "/guide/ue5-6-blueprint-aaa-patterns",
             },
+            {
+              text: "Blueprint Design Patterns & Clean Code",
+              link: "/guide/blueprint-design-patterns-clean-code",
+            },
           ],
         },
         {
