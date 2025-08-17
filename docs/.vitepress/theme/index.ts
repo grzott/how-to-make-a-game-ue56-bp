@@ -2,6 +2,7 @@ import DefaultTheme from "vitepress/theme";
 import type { Theme } from "vitepress";
 import SmartNavigation from "./components/SmartNavigation.vue";
 import { h } from "vue";
+import "./custom.css";
 
 const theme: Theme = {
   extends: DefaultTheme,

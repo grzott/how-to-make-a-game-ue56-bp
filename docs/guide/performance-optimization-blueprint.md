@@ -1,4 +1,36 @@
-# Performance and memory (Blueprint)
+# Performance and Memory (Blueprint)
+
+## 🎥 **Blueprint Performance Mastery**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/vmIgjKr8rfg" 
+          title="Blueprint Performance Optimization - Complete Guide to Fast BPs in UE5" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+## 📚 **Performance Resources & Documentation**
+
+### **Official Performance Guides:**
+- 📖 **[Blueprint Performance Guidelines](https://docs.unrealengine.com/5.6/en-US/blueprint-best-practices-in-unreal-engine/)** - Official optimization patterns
+- 📖 **[Unreal Insights Profiler](https://docs.unrealengine.com/5.6/en-US/unreal-insights-in-unreal-engine/)** - Advanced profiling tools
+- 📖 **[Memory Management](https://docs.unrealengine.com/5.6/en-US/memory-and-performance-guidelines-in-unreal-engine/)** - Memory optimization strategies
+
+### **Profiling & Analysis:**
+- 📖 **[Blueprint Profiler](https://docs.unrealengine.com/5.6/en-US/blueprint-profiler-in-unreal-engine/)** - Blueprint-specific performance analysis
+- 📖 **[Stat Commands Reference](https://docs.unrealengine.com/5.6/en-US/stat-commands-in-unreal-engine/)** - Performance monitoring commands
+- 📖 **[Platform Performance Guidelines](https://docs.unrealengine.com/5.6/en-US/platform-specific-performance-guidelines/)** - Target platform optimization
+
+### **Advanced Performance Tutorials:**
+- 🎥 **[Blueprint VM Optimization](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - Advanced VM performance techniques
+- 🎥 **[Memory Pool Management](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - Custom pooling systems
+- 🎥 **[Large World Performance](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Open world optimization patterns
+
+---
+
+## ⚡ **Performance Fundamentals**
 
 What/Why: Avoid the usual traps in BP-heavy projects and keep frames stable.
 

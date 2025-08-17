@@ -1,4 +1,37 @@
-# Networking basics (Blueprint)
+# Networking Basics (Blueprint)
+
+## 🎥 **Multiplayer Blueprint Foundation**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/JOJP0CvpB8w" 
+          title="Complete Blueprint Multiplayer Tutorial - Networking Basics in UE5" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+## 📚 **Networking Documentation & Resources**
+
+### **Core Networking Concepts:**
+- 📖 **[Networking and Multiplayer](https://docs.unrealengine.com/5.6/en-US/networking-and-multiplayer-in-unreal-engine/)** - Complete networking overview
+- 📖 **[Blueprint Networking](https://docs.unrealengine.com/5.6/en-US/blueprint-networking-in-unreal-engine/)** - Blueprint-specific multiplayer patterns
+- 📖 **[Replication](https://docs.unrealengine.com/5.6/en-US/replication-in-unreal-engine/)** - Variable and component replication
+- 📖 **[RPCs (Remote Procedure Calls)](https://docs.unrealengine.com/5.6/en-US/rpcs-in-unreal-engine/)** - Server, client, and multicast functions
+
+### **Advanced Networking:**
+- 📖 **[Network Authority](https://docs.unrealengine.com/5.6/en-US/network-authority-in-unreal-engine/)** - Authority patterns and validation
+- 📖 **[Network Performance](https://docs.unrealengine.com/5.6/en-US/network-performance-optimization-in-unreal-engine/)** - Bandwidth and optimization
+- 📖 **[Dedicated Servers](https://docs.unrealengine.com/5.6/en-US/setting-up-dedicated-servers-in-unreal-engine/)** - Server deployment guide
+
+### **Multiplayer Video Tutorials:**
+- 🎥 **[Advanced RPC Patterns](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - Complex multiplayer interactions
+- 🎥 **[Client Prediction](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - Lag compensation techniques
+- 🎥 **[Network Profiling](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Multiplayer performance analysis
+
+---
+
+## 🌐 **Multiplayer Architecture**
 
 What/Why: Build multiplayer-ready Blueprints with clear authority, replication, and RPCs.
 

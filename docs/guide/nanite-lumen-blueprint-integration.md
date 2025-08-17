@@ -1,5 +1,37 @@
 # Nanite + Lumen: Blueprint Integration (UE 5.6)
 
+## 🎥 **Nanite & Lumen Deep Dive**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/NRnj_lnpORU" 
+          title="Nanite & Lumen Complete Guide - Optimization and Blueprint Control in UE5.6" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+## 📚 **Official Documentation & Resources**
+
+### **Nanite System:**
+- 📖 **[Nanite Virtualized Geometry](https://docs.unrealengine.com/5.6/en-US/nanite-virtualized-geometry-in-unreal-engine/)** - Complete Nanite overview
+- 📖 **[Nanite Blueprint Integration](https://docs.unrealengine.com/5.6/en-US/nanite-runtime-control-and-debugging-in-unreal-engine/)** - Runtime control and debugging
+- 📖 **[Nanite Performance Guide](https://docs.unrealengine.com/5.6/en-US/nanite-performance-optimization-in-unreal-engine/)** - Optimization strategies
+
+### **Lumen System:**
+- 📖 **[Lumen Global Illumination](https://docs.unrealengine.com/5.6/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/)** - Lumen system overview
+- 📖 **[Lumen Performance Optimization](https://docs.unrealengine.com/5.6/en-US/lumen-performance-guide-in-unreal-engine/)** - Performance tuning guide
+- 📖 **[Lumen Blueprint Controls](https://docs.unrealengine.com/5.6/en-US/lumen-runtime-settings-in-unreal-engine/)** - Dynamic quality control
+
+### **Related Video Tutorials:**
+- 🎥 **[Nanite LOD Management](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - Dynamic LOD control strategies
+- 🎥 **[Lumen Quality Scaling](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - Adaptive quality techniques
+- 🎥 **[Console & Mobile Optimization](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Platform-specific tuning
+
+---
+
+## 🛠️ **Blueprint Implementation**
+
 What/Why: Control UE5.6's Nanite virtualized geometry and Lumen global illumination from Blueprints for dynamic quality scaling and performance optimization.
 
 Prereqs

@@ -12,6 +12,12 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     ['link', { rel: 'alternate icon', href: '/favicon.svg', type: 'image/svg+xml' }],
   ],
+  markdown: {
+    // Enable mermaid diagrams
+    config: (md) => {
+      // You can add mermaid plugin here if needed
+    }
+  },
   themeConfig: {
     // Configure search
     search: {

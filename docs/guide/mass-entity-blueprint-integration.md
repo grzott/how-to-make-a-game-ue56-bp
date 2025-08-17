@@ -1,5 +1,37 @@
 # Mass Entity Framework: Blueprint Integration (UE 5.6)
 
+## 🎥 **Mass Entity System Deep Dive**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/f9q8A-9DvPM" 
+          title="Mass Entity Framework - High Performance ECS in UE5.6 with Blueprints" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+## 📚 **Mass Entity Documentation & Resources**
+
+### **Mass Entity Core System:**
+- 📖 **[Mass Entity Framework](https://docs.unrealengine.com/5.6/en-US/mass-entity-in-unreal-engine/)** - Complete ECS system overview
+- 📖 **[Mass Processors](https://docs.unrealengine.com/5.6/en-US/mass-entity-processors-in-unreal-engine/)** - System processing patterns
+- 📖 **[Mass Components](https://docs.unrealengine.com/5.6/en-US/mass-entity-fragments-and-tags-in-unreal-engine/)** - Data component architecture
+
+### **Advanced Mass Systems:**
+- 📖 **[Mass AI Integration](https://docs.unrealengine.com/5.6/en-US/mass-ai-in-unreal-engine/)** - AI behavior with Mass Entity
+- 📖 **[Mass Gameplay](https://docs.unrealengine.com/5.6/en-US/mass-gameplay-in-unreal-engine/)** - Gameplay system integration
+- 📖 **[Mass Simulation](https://docs.unrealengine.com/5.6/en-US/mass-simulation-in-unreal-engine/)** - Large-scale simulation patterns
+
+### **Mass Entity Tutorials:**
+- 🎥 **[Crowd Simulation with Mass Entity](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - Advanced crowd behaviors
+- 🎥 **[Mass Entity Performance Optimization](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - High-performance ECS patterns
+- 🎥 **[Blueprint-Mass Entity Integration](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Bridging ECS and Blueprints
+
+---
+
+## ⚡ **High-Performance ECS Architecture**
+
 What/Why: Leverage UE5.6's Mass Entity system for high-performance crowd simulation, AI, and procedural content through Blueprint interfaces.
 
 Prereqs

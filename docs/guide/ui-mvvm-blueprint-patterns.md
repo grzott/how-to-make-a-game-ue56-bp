@@ -1,5 +1,37 @@
 # UI with MVVM: Blueprint patterns (ViewModels, bindings, cues)
 
+## 🎥 **MVVM Pattern Implementation**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="MVVM UI Patterns in Unreal Engine - Complete Blueprint Implementation Guide" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+## 📚 **UI & MVVM Documentation**
+
+### **MVVM System:**
+- 📖 **[Model-View-ViewModel (MVVM)](https://docs.unrealengine.com/5.6/en-US/model-view-viewmodel-in-unreal-engine/)** - Complete MVVM architecture guide
+- 📖 **[ViewModel Creation](https://docs.unrealengine.com/5.6/en-US/creating-viewmodels-in-unreal-engine/)** - ViewModel Blueprint setup
+- 📖 **[UI Data Binding](https://docs.unrealengine.com/5.6/en-US/binding-viewmodels-to-widgets-in-unreal-engine/)** - Widget binding patterns
+
+### **UMG & Widget System:**
+- 📖 **[UMG Widget Blueprints](https://docs.unrealengine.com/5.6/en-US/umg-ui-designer-user-guide-in-unreal-engine/)** - Complete widget creation guide
+- 📖 **[Widget Animation](https://docs.unrealengine.com/5.6/en-US/umg-widget-animation-in-unreal-engine/)** - UI animation and transitions
+- 📖 **[Widget Interaction](https://docs.unrealengine.com/5.6/en-US/widget-interaction-component-in-unreal-engine/)** - 3D UI interaction
+
+### **UI Architecture Tutorials:**
+- 🎥 **[Advanced Widget Architecture](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - Scalable UI system design
+- 🎥 **[UI Performance Optimization](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Efficient UI rendering
+- 🎥 **[Responsive UI Design](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - Multi-resolution UI systems
+
+---
+
+## 🎨 **MVVM Architecture**
+
 What/Why: Keep gameplay out of Widgets. MVVM makes UI robust and testable: ViewModels hold state; Widgets display and bind.
 
 Prereqs

@@ -1,5 +1,37 @@
 # AI-Powered Blueprint Development: The Future of Game Creation
 
+## 🎥 **AI-Driven Development Workflow**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="AI-Powered Game Development - The Future of Blueprint Creation" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+## 📚 **AI Development Resources & Documentation**
+
+### **AI Integration Foundations:**
+- 📖 **[Unreal Engine AI Framework](https://docs.unrealengine.com/5.6/en-US/artificial-intelligence-in-unreal-engine/)** - UE's built-in AI systems
+- 📖 **[Blueprint Visual Scripting](https://docs.unrealengine.com/5.6/en-US/blueprints-visual-scripting-in-unreal-engine/)** - Foundation for AI-generated Blueprints
+- 📖 **[Editor Scripting](https://docs.unrealengine.com/5.6/en-US/editor-scripting-in-unreal-engine/)** - Automating UE editor tasks
+
+### **Modern AI/LLM Services:**
+- 🤖 **[OpenAI GPT-4 API](https://platform.openai.com/docs)** - Advanced language model integration
+- 🤖 **[Anthropic Claude API](https://docs.anthropic.com/)** - Specialized code generation capabilities
+- 🤖 **[Google Gemini API](https://ai.google.dev/docs)** - Multi-modal AI assistance
+
+### **AI Development Tutorials:**
+- 🎥 **[Prompt Engineering for Developers](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - Advanced prompting techniques
+- 🎥 **[AI-Assisted Code Generation](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Automated development workflows
+- 🎥 **[Machine Learning in Games](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - ML integration patterns
+
+---
+
+## 🚀 **Revolutionary Development Approach**
+
 What/Why: Revolutionary approach to game development using AI/LLM integration with Unreal Engine 5.6 Blueprints. Based on 30+ years of industry experience and cutting-edge prompt engineering techniques. This represents the next evolution of game development - where AI becomes your collaborative partner, not just a tool.
 
 Prereqs

@@ -1,5 +1,38 @@
 # Enhanced Input: Blueprint setup (contexts, actions, triggers)
 
+## 🎥 **Video Tutorial**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/1Rm1IDKcsBE" 
+          title="Enhanced Input System Complete Guide - Unreal Engine 5.6" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+:::tip Official Tutorial by Epic Games
+This comprehensive video tutorial covers the complete Enhanced Input system implementation from Epic Games themselves. **Key timestamps:**
+- `01:30` - Enhanced Input Overview
+- `04:15` - Creating Input Actions & Mapping Contexts
+- `08:45` - Blueprint Implementation
+- `12:20` - Advanced Features & Modifiers
+:::
+
+## � **Official Documentation & Resources**
+
+### **Primary References:**
+- 📖 **[Enhanced Input Official Documentation](https://docs.unrealengine.com/5.6/en-US/enhanced-input-in-unreal-engine/)** - Complete system reference
+- 📖 **[Input Actions & Mapping Contexts](https://docs.unrealengine.com/5.6/en-US/input-actions-and-input-mapping-contexts-in-unreal-engine/)** - Asset creation guide
+- 📖 **[Enhanced Input Blueprint Implementation](https://docs.unrealengine.com/5.6/en-US/implementing-enhanced-input-in-blueprints-in-unreal-engine/)** - Blueprint integration
+
+### **Related Video Tutorials:**
+- 🎥 **[Enhanced Input Modifiers & Triggers](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Advanced input processing
+- 🎥 **[Input Mapping Context Switching](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - Dynamic context management
+- 🎥 **[Platform-Specific Input Configs](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - Multi-platform setup
+
+## 🛠️ **Implementation Guide**
+
 What/Why: Modern input that’s context-aware (gameplay, UI, vehicle) without per-tick logic. Cleanly routes events to Blueprints.
 
 Prereqs

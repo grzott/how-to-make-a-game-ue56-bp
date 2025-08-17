@@ -25,7 +25,7 @@ hero:
 features:
   - icon: 🚀
     title: Complete UE5.6 Mastery
-    details: 29 comprehensive guides covering every modern UE5.6 system—from Nanite/Lumen to Mass Entity framework, all using Blueprint-only approaches.
+    details: 30 comprehensive guides covering every modern UE5.6 system—from Nanite/Lumen to Mass Entity framework, all using Blueprint-only approaches.
 
   - icon: 🤖
     title: Revolutionary AI Integration
@@ -42,6 +42,10 @@ features:
   - icon: ⚡
     title: Proven Performance
     details: Concrete optimization strategies with measurable results. Platform-specific budgets (Mobile 2GB, Console 8GB, PC 16GB+) and profiling workflows.
+
+  - icon: �
+    title: Advanced Networking
+    details: Production multiplayer patterns with client prediction, lag compensation, and seamless world architecture for large-scale experiences.
 
   - icon: 🌐
     title: Advanced Networking

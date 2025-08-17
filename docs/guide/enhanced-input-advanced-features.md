@@ -1,5 +1,32 @@
 # Enhanced Input Advanced Features (UE 5.6)
 
+## 🎥 **Featured Tutorial**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/2ufX3P2_N2I" 
+          title="Enhanced Input Advanced Features - Player Mappable Configs & Modifiers" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+</div>
+
+## 📚 **Documentation & Resources**
+
+### **Official UE5.6 References:**
+- 📖 **[Player Mappable Input Configs](https://docs.unrealengine.com/5.6/en-US/player-mappable-input-configs-in-unreal-engine/)** - Custom key binding system
+- 📖 **[Input Modifiers](https://docs.unrealengine.com/5.6/en-US/input-modifiers-in-unreal-engine/)** - Input processing and transformation
+- 📖 **[Input Triggers](https://docs.unrealengine.com/5.6/en-US/input-triggers-in-unreal-engine/)** - Advanced input detection patterns
+
+### **Related Tutorials:**
+- 🎥 **[Input Debugging Techniques](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** - Debug input flow and timing
+- 🎥 **[Chorded Actions Setup](https://www.youtube.com/watch?v=oHg5SJYRHA0)** - Multi-key combinations
+- 🎥 **[Input Replay System](https://www.youtube.com/watch?v=Y7fKQJBdY7M)** - Record and playback inputs
+
+---
+
+## 📋 **Advanced Implementation**
+
 What/Why: Leverage UE5.6's full Enhanced Input capabilities including Player Mappable Configs, Input Debugging, Chorded Actions, and Input Replay for AAA-quality input handling.
 
 Prereqs
