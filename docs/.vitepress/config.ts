@@ -32,7 +32,12 @@ export default defineConfig({
   { text: "Animation Blueprint Patterns", link: "/guide/animation-blueprint-patterns" },
   { text: "World Partition & Streaming", link: "/guide/world-partition-level-streaming-blueprint" },
   { text: "Networking Basics", link: "/guide/networking-blueprint-basics" },
+  { text: "Advanced Networking (Prediction)", link: "/guide/advanced-networking-prediction-authority" },
+  { text: "Nanite + Lumen Integration", link: "/guide/nanite-lumen-blueprint-integration" },
+  { text: "Mass Entity Framework", link: "/guide/mass-entity-blueprint-integration" },
   { text: "Performance & Memory", link: "/guide/performance-optimization-blueprint" },
+  { text: "Performance Budgets & Profiling", link: "/guide/performance-budgets-profiling-blueprint" },
+  { text: "Production Pipeline (CI/CD)", link: "/guide/production-pipeline-blueprint-cicd" },
   { text: "Testing & Automation", link: "/guide/testing-automation-blueprint" },
       ],
       "/llm/": [
