@@ -26,6 +26,7 @@ export default defineConfig({
   { text: "Data Assets & Asset Manager", link: "/guide/data-assets-asset-manager" },
   { text: "Inventory (DataAssets + Replication)", link: "/guide/inventory-dataassets-replication-blueprint" },
   { text: "Interaction (Trace + Interface)", link: "/guide/interaction-trace-interface-blueprint" },
+  { text: "Example: Interaction + Inventory Loop", link: "/guide/example-interaction-inventory-blueprint" },
   { text: "Save/Load Service (Blueprint)", link: "/guide/save-load-service-blueprint" },
   { text: "Subsystems (Services & Events)", link: "/guide/subsystems-blueprint-patterns" },
   { text: "Animation Blueprint Patterns", link: "/guide/animation-blueprint-patterns" },
@@ -33,8 +34,6 @@ export default defineConfig({
   { text: "Networking Basics", link: "/guide/networking-blueprint-basics" },
   { text: "Performance & Memory", link: "/guide/performance-optimization-blueprint" },
   { text: "Testing & Automation", link: "/guide/testing-automation-blueprint" },
-  { text: "Interaction (Trace + Interface)", link: "/guide/interaction-trace-interface-blueprint" },
-  { text: "Inventory (DataAssets + Replication)", link: "/guide/inventory-dataassets-replication-blueprint" },
       ],
       "/llm/": [
         { text: "General LLM Instructions", link: "/llm/general.instructions" },
