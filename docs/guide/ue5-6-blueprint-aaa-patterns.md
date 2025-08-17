@@ -164,3 +164,10 @@ This section distills modern patterns used in large UE projects—translated for
 ---
 
 Next: Review the LLM Instructions to co-author new sections with Copilot.
+
+## Suggested prompts
+
+- “Based on these patterns, propose a Blueprint-only feature slice for [my mechanic], listing DataAssets, Components, Interfaces, Subsystems, and tests.”
+- “Convert an overgrown Blueprint into components and interfaces. Provide a small refactor checklist.”
+- “Help me replace tick-driven logic with events/timers. Show before/after nodes.”
+- “Suggest tag schemas for state and events (e.g., State.*, UI.*, Cooldown.*) and where they’re read/written.”
