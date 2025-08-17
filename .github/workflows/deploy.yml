@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Build with VitePress
         env:
           DOCS_BASE: "/${{ github.event.repository.name }}/"
