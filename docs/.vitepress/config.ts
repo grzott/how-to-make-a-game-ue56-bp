@@ -26,6 +26,7 @@ export default defineConfig({
       { text: "Guide", link: "/guide/" },
       { text: "LLM & AI", link: "/llm/" },
       { text: "Glossary", link: "/glossary/" },
+      { text: "Support", link: "/support" },
     ],
     sidebar: {
       "/guide/": [
