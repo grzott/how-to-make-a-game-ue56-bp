@@ -7,19 +7,33 @@ export default defineConfig({
     "AAA production patterns for Unreal Engine 5.6 using Blueprints only—written for CG artists, no C++ required.",
   base: process.env.DOCS_BASE || "/",
   lastUpdated: true,
+  ignoreDeadLinks: true, // Allow development with missing pages
   themeConfig: {
+    // Enable prev/next navigation
+    docFooter: {
+      prev: "Previous",
+      next: "Next",
+    },
+    // Configure search
+    search: {
+      provider: "local",
+      options: {
+        detailedView: true,
+      },
+    },
     nav: [
+      { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
-      { text: "UE5.6 Essentials", link: "/guide/ue56-essentials" },
-      { text: "LLM Instructions", link: "/llm/general.instructions" },
-      { text: "Authoring Plan", link: "/plan" },
+      { text: "LLM & AI", link: "/llm/" },
+      { text: "Glossary", link: "/glossary/" },
     ],
     sidebar: {
       "/guide/": [
         {
-          text: "Getting Started",
+          text: "🚀 Getting Started",
+          collapsed: false,
           items: [
-            { text: "Overview", link: "/guide/index" },
+            { text: "Overview", link: "/guide/" },
             { text: "UE5.6 Essentials", link: "/guide/ue56-essentials" },
             {
               text: "AAA Blueprint Patterns",
@@ -28,7 +42,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "Core Systems",
+          text: "⚙️ Core Systems",
+          collapsed: false,
           items: [
             {
               text: "Enhanced Input (Basic)",
@@ -61,7 +76,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "Gameplay Systems",
+          text: "🎮 Gameplay Systems",
+          collapsed: false,
           items: [
             {
               text: "Gameplay Ability System (GAS)",
@@ -90,7 +106,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "Advanced UE5.6 Systems",
+          text: "🚀 Advanced UE5.6 Systems",
+          collapsed: false,
           items: [
             {
               text: "Nanite + Lumen Integration",
@@ -111,7 +128,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "Networking & Multiplayer",
+          text: "🌐 Networking & Multiplayer",
+          collapsed: false,
           items: [
             {
               text: "Networking Basics",
@@ -124,7 +142,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "Performance & Optimization",
+          text: "⚡ Performance & Optimization",
+          collapsed: false,
           items: [
             {
               text: "Performance & Memory",
@@ -141,7 +160,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "Production & Enterprise",
+          text: "🏢 Production & Enterprise",
+          collapsed: false,
           items: [
             {
               text: "AI-Powered Blueprint Development",
@@ -163,7 +183,118 @@ export default defineConfig({
         },
       ],
       "/llm/": [
-        { text: "General LLM Instructions", link: "/llm/general.instructions" },
+        {
+          text: "🤖 AI & LLM Integration",
+          collapsed: false,
+          items: [
+            { text: "Overview", link: "/llm/" },
+            { text: "Getting Started with AI", link: "/llm/getting-started" },
+            {
+              text: "UE5.6 Editor Integration",
+              link: "/llm/ue56-editor-integration",
+            },
+          ],
+        },
+        {
+          text: "🚀 Productivity & Workflows",
+          collapsed: false,
+          items: [
+            {
+              text: "AI-Enhanced Development",
+              link: "/llm/productivity-workflows",
+            },
+            { text: "Blueprint Generation", link: "/llm/blueprint-generation" },
+            {
+              text: "Code Review & Optimization",
+              link: "/llm/code-review-optimization",
+            },
+            {
+              text: "Debugging & Troubleshooting",
+              link: "/llm/debugging-troubleshooting",
+            },
+          ],
+        },
+        {
+          text: "📝 Prompts & Templates",
+          collapsed: false,
+          items: [
+            {
+              text: "General LLM Instructions",
+              link: "/llm/general.instructions",
+            },
+            {
+              text: "Blueprint Development Prompts",
+              link: "/llm/blueprint-prompts",
+            },
+            {
+              text: "Performance Optimization Prompts",
+              link: "/llm/performance-prompts",
+            },
+            {
+              text: "Asset Generation Prompts",
+              link: "/llm/asset-generation-prompts",
+            },
+          ],
+        },
+        {
+          text: "🎨 Asset Creation & Tools",
+          collapsed: false,
+          items: [
+            {
+              text: "Best Models for Game Assets",
+              link: "/llm/best-models-assets",
+            },
+            {
+              text: "Texture & Material Generation",
+              link: "/llm/texture-material-generation",
+            },
+            {
+              text: "3D Model & Animation AI",
+              link: "/llm/model-animation-ai",
+            },
+            {
+              text: "Audio & Sound Generation",
+              link: "/llm/audio-sound-generation",
+            },
+          ],
+        },
+        {
+          text: "⚡ Advanced Techniques",
+          collapsed: false,
+          items: [
+            {
+              text: "Custom Model Training",
+              link: "/llm/custom-model-training",
+            },
+            {
+              text: "API Integration Patterns",
+              link: "/llm/api-integration-patterns",
+            },
+            {
+              text: "Team Collaboration with AI",
+              link: "/llm/team-collaboration",
+            },
+            { text: "Future Technologies", link: "/llm/future-technologies" },
+          ],
+        },
+      ],
+      "/glossary/": [
+        {
+          text: "📚 Reference & Glossary",
+          items: [
+            { text: "Overview", link: "/glossary/" },
+            { text: "UE5.6 Terms & Concepts", link: "/glossary/ue56-terms" },
+            {
+              text: "Blueprint Patterns Dictionary",
+              link: "/glossary/blueprint-patterns",
+            },
+            { text: "AI & LLM Terminology", link: "/glossary/ai-llm-terms" },
+            {
+              text: "Performance Metrics Guide",
+              link: "/glossary/performance-metrics",
+            },
+          ],
+        },
       ],
       "/": [{ text: "Home", link: "/" }],
     },
