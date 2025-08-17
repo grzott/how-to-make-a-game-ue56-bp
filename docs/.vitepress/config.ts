@@ -8,12 +8,11 @@ export default defineConfig({
   base: process.env.DOCS_BASE || "/",
   lastUpdated: true,
   ignoreDeadLinks: true, // Allow development with missing pages
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'alternate icon', href: '/favicon.svg', type: 'image/svg+xml' }],
+  ],
   themeConfig: {
-    // Enable prev/next navigation
-    docFooter: {
-      prev: "Previous",
-      next: "Next",
-    },
     // Configure search
     search: {
       provider: "local",

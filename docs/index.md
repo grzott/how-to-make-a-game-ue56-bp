@@ -6,8 +6,8 @@ hero:
   text: "Industry-Leading Game Development"
   tagline: "Build AAA-quality games in UE5.6 using Blueprints only—no C++ required. Featuring revolutionary AI integration and production-proven patterns."
   image:
-    src: /logo.png
-    alt: UE5.6 Blueprint AAA Guide
+    src: /logo.svg
+    alt: UE5.6 Blueprint AAA Guide - Bear mascot representing strength and reliability in game development
   actions:
     - theme: brand
       text: Start Learning

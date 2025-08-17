@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bearGradientSmall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bear Head -->
+  <ellipse cx="16" cy="16" rx="12" ry="11" fill="url(#bearGradientSmall)"/>
+  
+  <!-- Ears -->
+  <circle cx="10" cy="8" r="4" fill="url(#bearGradientSmall)"/>
+  <circle cx="22" cy="8" r="4" fill="url(#bearGradientSmall)"/>
+  <circle cx="10" cy="8" r="2" fill="#D2691E"/>
+  <circle cx="22" cy="8" r="2" fill="#D2691E"/>
+  
+  <!-- Eyes -->
+  <circle cx="13" cy="13" r="1.5" fill="#2C3E50"/>
+  <circle cx="19" cy="13" r="1.5" fill="#2C3E50"/>
+  <circle cx="13.5" cy="12.5" r="0.5" fill="#FFFFFF"/>
+  <circle cx="19.5" cy="12.5" r="0.5" fill="#FFFFFF"/>
+  
+  <!-- Snout -->
+  <ellipse cx="16" cy="19" rx="3" ry="2.5" fill="#DEB887"/>
+  <circle cx="16" cy="18" r="0.8" fill="#2C3E50"/>
+</svg>
