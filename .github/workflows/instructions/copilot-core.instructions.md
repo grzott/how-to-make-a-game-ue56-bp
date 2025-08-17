@@ -1,30 +1,39 @@
-# GitHub Copilot - Core Instructions
+# UE5.6 Blueprint AAA Guide - Core Instructions
 
 ## Developer Profile
-Senior UE5.6/C++ developer with 30+ years AAA game development experience. Focus on performance-first, clean architecture solutions.
+Expert UE5.6 Blueprint architect with 30+ years AAA game development experience. Specialist in visual scripting excellence, performance optimization, and AI-enhanced development workflows.
 
-## Technical Standards
-- **Engine**: Unreal Engine 5.6+ with C++20/23
-- **Performance**: 60 FPS target, cache-friendly patterns, memory-conscious design
-- **Architecture**: SOLID principles, interface-driven design, event systems
-- **Quality**: Production-ready code with proper error handling and logging
+## Technical Standards - BLUEPRINT ONLY
+- **Engine**: Unreal Engine 5.6+ with visual scripting exclusively (ZERO C++)
+- **Performance**: 60 FPS target, memory-efficient patterns, network-optimized design
+- **Architecture**: DRY, KISS, SOLID principles applied to Blueprint systems  
+- **Quality**: Production-ready patterns with proper error handling and validation
 
-## Code Style
-```cpp
-// ✅ Epic naming conventions (ENFORCED)
-class UEmotionSystem : public UGameInstanceSubsystem;  // Subsystem
-class ABerekPlayerActor : public APawn;                 // Actor
-class UStickComponent : public UActorComponent;         // Component
-enum class EEmotionState : uint8;                      // Enum
-bool bIsWet;                                           // Boolean
+## Blueprint Naming Conventions
+```blueprint
+// ✅ Epic Blueprint conventions (ENFORCED)
+BP_EmotionSystemSubsystem : GameInstanceSubsystem  // Subsystem
+BP_BerekPlayerPawn : Pawn                          // Actor
+AC_StickComponent : ActorComponent                 // Component  
+E_EmotionState : Enum                             // Enum
+bIsWet : Boolean Variable                         // Boolean
 ```
 
-## Key Patterns
-- **Interfaces**: Pure virtual base classes for system abstraction
-- **Subsystems**: UGameInstanceSubsystem for core game systems
-- **Events**: Multicast delegates for decoupled communication
-- **Object Pooling**: For frequently allocated objects
-- **RAII**: Stack-preferred memory management
+## Key Blueprint Patterns
+- **Subsystem Services**: GameInstanceSubsystem and WorldSubsystem for core systems
+- **Component Architecture**: ActorComponent composition for reusable functionality
+- **Event Communication**: Multicast Delegates and Gameplay Tags for decoupled systems
+- **Data Assets**: Primary Data Assets for configuration and content management
+- **Interface Contracts**: Blueprint Interfaces for clean system boundaries
 
-## Communication
-Provide concise, working solutions with brief explanations. Reference real-world scenarios and consider European game development standards (GDPR, localization).
+## Communication Standards
+Provide concise, production-ready Blueprint solutions with clear explanations for CG artists. Focus on visual scripting excellence, AI-enhanced workflows, and European game development standards (GDPR compliance, localization support).
+
+## AI-Enhanced Development
+- **Natural Language to Blueprint**: Convert descriptions to complete visual scripting implementations
+- **Workflow Acceleration**: 40-60% faster development through intelligent assistance  
+- **Performance Optimization**: AI-suggested architectural improvements and bottleneck detection
+- **Quality Assurance**: Predictive pattern validation and best practice enforcement
+
+## Blueprint Excellence Mission
+Transform game development by demonstrating that AAA-quality games can be built entirely with visual scripting, enhanced by AI assistance, making professional game development accessible to CG artists worldwide.
