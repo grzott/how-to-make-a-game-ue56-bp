@@ -9,34 +9,40 @@ Prereqs
 
 Steps
 
-1) Client-Side Prediction Pattern
+1. Client-Side Prediction Pattern
+
 - Input Component: store inputs locally, send to server via RPC with timestamp
 - Movement Component: apply movement immediately on owning client
 - Server validates and corrects; clients reconcile on authority mismatch
 - Use `Smooth Client Position` for visual correction without snapping
 
-2) Lag Compensation for Hit Registration
+2. Lag Compensation for Hit Registration
+
 - Server stores player positions per tick in circular buffer (last 1 second)
 - On hit RPC from client: rewind server state to client's perceived time
 - Validate hit against rewound positions, apply damage if valid
 - Use `GetWorld()->GetTimeSeconds()` and client RTT for rewind calculation
 
-3) Authoritative Server Validation
+3. Authoritative Server Validation
+
 - Server RPCs: validate all gameplay actions (jump height, ability cooldowns, item usage)
 - Client optimization: show immediate feedback, roll back on server rejection
 - Use Gameplay Tags for validation: server checks `CanUseAbility` tags before execution
 
-4) Network Compression Patterns
+4. Network Compression Patterns
+
 - Quantize movement vectors: `FVector_NetQuantize10` for positions, `FVector_NetQuantizeNormal` for directions
 - Pack boolean flags into bit fields using `UPROPERTY(Meta = (Bitmask))`
 - Use `RepNotifyCondition = REPNOTIFY_OnChanged` to avoid redundant updates
 
-5) Large-Scale Optimization
+5. Large-Scale Optimization
+
 - Network Culling: override `IsNetRelevantFor()` based on distance and line of sight
 - Update Frequency scaling: reduce `NetUpdateFrequency` for distant/occluded actors
 - Batch small updates: collect per-tick changes, send as single RPC every 0.1s
 
-6) Seamless World Travel
+6. Seamless World Travel
+
 - Persistent player data via `GameInstanceSubsystem`
 - Server transition: save player state, load new level, restore state
 - Client loading screens: use `OpenLevel` with seamless travel options

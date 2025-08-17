@@ -9,27 +9,32 @@ Prereqs
 
 Steps
 
-1) Nanite Blueprint Control
+1. Nanite Blueprint Control
+
 - Use `Set Console Variable by Name`: `r.Nanite.MaxPixelsPerEdge` (0.5-2.0) for quality scaling
 - `r.Nanite.ViewMeshLODBias` (-2 to 2) for aggressive LOD control under performance pressure
 - Runtime mesh complexity via `Nanite Settings` on Static Mesh Components: Override `Position Precision` and `Percent Triangles`
 
-2) Lumen Dynamic Control
+2. Lumen Dynamic Control
+
 - `Set Console Variable by Name`: `r.LumenScene.GlobalIllumination` (0/1) to toggle GI
 - `r.Lumen.TraceMeshSDFs` (0/1) for mesh distance field tracing vs surface cache
 - Use `Post Process Volume` → Lumen Global Illumination: `Intensity`, `Max Trace Distance`, `Scene Lighting Update Speed`
 
-3) TSR Quality Management
+3. TSR Quality Management
+
 - `r.TSR.ShadingRate` (0.5-2.0) for performance vs quality balance
 - `r.TemporalAA.Upsampling` (0/1) to toggle upsampling
 - Monitor GPU time with `Stat GPU` and adjust TSR shading rate dynamically
 
-4) Performance Scaling Pipeline
+4. Performance Scaling Pipeline
+
 - Create `BP_RenderingQualityManager` (GameInstanceSubsystem)
 - Functions: `SetNaniteQuality(Low/Medium/High)`, `SetLumenQuality(Low/Medium/High)`, `ScaleTSR(float Quality)`
 - Auto-scale based on `Stat Unit` frametime thresholds (16ms = 60fps, 8ms = 120fps)
 
-5) Platform-Specific Presets
+5. Platform-Specific Presets
+
 - DataAsset `DA_PlatformRenderSettings` with Nanite/Lumen/TSR presets per platform
 - On Begin Play: apply settings from platform-detected preset
 

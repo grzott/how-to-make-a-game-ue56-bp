@@ -17,11 +17,11 @@ This is the working plan for growing and maintaining the UE5.6 Blueprint AAA Gui
 
 ## Authoring workflow
 
-1) Pick a feature slice (e.g., Enhanced Input, Inventory, Interaction).
-2) Create a page under `/guide/` using the template.
-3) Wire it into the sidebar (`docs/.vitepress/config.ts`).
-4) Cross-link related pages (top and bottom) and add prompts.
-5) Build locally; fix links; commit and push.
+1. Pick a feature slice (e.g., Enhanced Input, Inventory, Interaction).
+2. Create a page under `/guide/` using the template.
+3. Wire it into the sidebar (`docs/.vitepress/config.ts`).
+4. Cross-link related pages (top and bottom) and add prompts.
+5. Build locally; fix links; commit and push.
 
 ## Writing rules (for contributors)
 

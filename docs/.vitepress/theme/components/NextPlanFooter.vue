@@ -5,11 +5,13 @@
 </template>
 
 <script setup lang="ts">
-import { useData } from 'vitepress'
-import { computed } from 'vue'
+import { useData } from "vitepress";
+import { computed } from "vue";
 
-const { page } = useData()
-const isGuidePage = computed(() => page.value.relativePath?.startsWith('guide/'))
+const { page } = useData();
+const isGuidePage = computed(() =>
+  page.value.relativePath?.startsWith("guide/")
+);
 </script>
 
 <style scoped>

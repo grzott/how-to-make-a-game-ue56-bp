@@ -9,49 +9,57 @@ Prereqs
 
 Steps
 
-1) Player Mappable Input Configs
+1. Player Mappable Input Configs
+
 - Create `UPlayerMappableInputConfig` asset: `PMI_DefaultBindings`
 - Define `FEnhancedActionKeyMapping` with `bIsPlayerMappable = true`
 - Expose key remapping in UI: `GetPlayerMappableKeys()` and `AddPlayerMappedKey()`
 - Save custom bindings via Enhanced Input Local Player Subsystem
 
-2) Chorded Actions (Multi-Key Combinations)
-- Create Input Action `IA_SuperAbility` with `EInputActionValueType::Boolean`  
+2. Chorded Actions (Multi-Key Combinations)
+
+- Create Input Action `IA_SuperAbility` with `EInputActionValueType::Boolean`
 - Add `Chorded Action` trigger: requires `IA_Modifier` + `IA_SuperAbility` pressed simultaneously
 - Configure timing: `Hold Time Threshold` for precise chord detection
 - Use in complex ability combinations: `Ctrl+Q`, `Shift+RClick`, multi-button combos
 
-3) Input Debugging System
+3. Input Debugging System
+
 - Enable `Enhanced Input Developer Settings` → `Enable Debug Visualizations`
 - Runtime debug: `showdebug enhancedinput` console command
 - Blueprint debugging: `Print Enhanced Input Action Debug Info` node
 - Create debug UI: display active contexts, triggered actions, and input values
 
-4) Input Replay and Recording
+4. Input Replay and Recording
+
 - Use `Input Replay Subsystem` for gameplay recording/playback
-- Record inputs: `StartRecording(SessionName)` → `StopRecording()` 
+- Record inputs: `StartRecording(SessionName)` → `StopRecording()`
 - Playback: `StartPlayback(SessionName)` with deterministic replay
 - Testing automation: record player session, replay for consistent test scenarios
 
-5) Context Stacking and Priority Management
+5. Context Stacking and Priority Management
+
 - Stack contexts with explicit priorities: `AddMappingContext(Context, Priority)`
 - Create context hierarchy: `Gameplay(0) → Vehicle(5) → UI(10) → Console(100)`
 - Advanced transitions: `SwapMappingContext()` for instant context switching
 - Conditional contexts: enable/disable based on Gameplay Tags
 
-6) Advanced Triggers and Modifiers
+6. Advanced Triggers and Modifiers
+
 - `Pulse` trigger: converts hold to repeated pulses (auto-fire weapons)
 - `Tap` vs `Hold` distinction: short press vs long press different actions
 - `Combo` trigger: sequence detection (fighting game combos, cheat codes)
 - Custom modifiers: `Dead Zone`, `Response Curve`, `Smooth Delta`
 
-7) Platform-Specific Input Handling
+7. Platform-Specific Input Handling
+
 - Create platform variants: `PMI_PC`, `PMI_Console`, `PMI_Mobile`
 - Auto-detection: `Get Platform Name` → apply appropriate config
 - Input device switching: `On Input Device Change` event → swap contexts
 - Handle controller/mouse+keyboard seamless transitions
 
-8) Accessibility and Customization
+8. Accessibility and Customization
+
 - `Input Sensitivity` scaling per action type (look, move, aim)
 - `Hold/Toggle` options: convert hold actions to toggles for accessibility
 - Visual input indicators: show button prompts with current bindings
@@ -84,17 +92,20 @@ Testing
 
 ## Advanced Patterns
 
-1) Dynamic Input Context Generation
+1. Dynamic Input Context Generation
+
 - Runtime context creation based on equipped items/abilities
 - Vehicle-specific contexts generated from vehicle data assets
 - UI contexts that adapt to current screen/widget focus
 
-2) Input Analytics and Heatmaps  
+2. Input Analytics and Heatmaps
+
 - Track input usage patterns: most-used actions, timing distributions
 - Performance analysis: input latency measurement and optimization
 - Player behavior: identify unused bindings or problematic chord sequences
 
-3) Cross-Platform Input Synchronization
+3. Cross-Platform Input Synchronization
+
 - Seamless switching between controller and mouse+keyboard mid-game
 - Input device capability detection: adaptive UI based on available inputs
 - Cloud save integration: sync custom bindings across devices
