@@ -120,19 +120,11 @@ Provide specific optimization strategies with Blueprint implementation steps.
 
 **Implementation Overview:**
 
-```cpp
-// Editor plugin structure for AI integration
-class FAIAssistantEditorModule : public IModuleInterface
-{
-public:
-    virtual void StartupModule() override;
-    virtual void ShutdownModule() override;
-
-private:
-    void RegisterMenuExtensions();
-    void HandleAIAnalysisRequest(TSharedPtr<FBlueprintEditor> BlueprintEditor);
-};
-```
+Blueprint-only integration approach:
+- Use Editor Utility Widgets for AI interface
+- Blueprint Editor Scripting for automated node creation
+- Data Assets for AI model configuration
+- Blueprint Function Libraries for AI communication
 
 ### **Blueprint Node AI Integration**
 
