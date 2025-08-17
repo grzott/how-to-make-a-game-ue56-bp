@@ -1,72 +1,52 @@
 # AI & LLM Integration for UE5.6 Development
 
-Welcome to the comprehensive guide for integrating Artificial Intelligence and Large Language Models into your Unreal Engine 5.6 Blueprint development workflow.
+Integrate AI assistants into your UE5.6 Blueprint development workflow for faster, smarter game creation.
 
-## 🎯 **What This Section Covers**
+## 🚀 **Quick Start**
 
-This section transforms how you approach UE5.6 development by leveraging cutting-edge AI technologies:
+### **Choose Your AI Assistant**
 
-- **🤖 Editor Integration**: Direct AI assistance within UE5.6
-- **🚀 Productivity Workflows**: Accelerate development with AI collaboration
-- **📝 Curated Prompts**: Battle-tested prompts for every development scenario
-- **🎨 Asset Creation**: AI-powered asset generation and optimization
-- **⚡ Advanced Techniques**: Custom training and enterprise integration
+**Essential LLMs for UE5.6 Blueprint Development:**
 
-## 🌟 **Why AI-Enhanced Development?**
+- **GPT-5** *(August 2025)*: Revolutionary multimodal intelligence with native UE5.6 knowledge
+- **Claude 4.0 Sonnet**: Enhanced context window (500K+ tokens) for massive Blueprint analysis
 
-**Traditional Development:**
+*That's it. These two models cover all your UE5.6 development needs.*
 
-- Manual Blueprint creation and optimization
-- Time-intensive debugging and troubleshooting
-- Limited exploration of alternative approaches
-- Steep learning curve for complex UE5.6 features
+### **Development Setup**
 
-**AI-Enhanced Development:**
+1. **AI Interface**: Use GitHub Copilot Chat, Claude interface, or ChatGPT
+2. **UE5.6 Integration**: Follow our [Editor Integration Guide](/llm/ue56-editor-integration)
+3. **Team Workflow**: Set up prompt libraries and templates
 
-- **90% faster prototyping** with GPT-5 powered Blueprint generation
-- **Intelligent debugging** with multimodal context-aware problem solving
-- **Unlimited creative exploration** through AI-suggested alternatives and variations
-- **Accelerated mastery** with AI explanations, tutorials, and real-time guidance
+## 📈 **Impact on Development**
 
-## 🤖 **GPT-5 Game Development Revolution**
+| Traditional | AI-Enhanced | Improvement |
+|-------------|-------------|-------------|
+| 2-3 days prototype | 2-4 hours | **90% faster** |
+| 2-4 hours debugging | 5-15 minutes | **95% faster** |
+| 3-6 months learning | 2-3 weeks | **85% reduction** |
 
-### **🚀 Breakthrough Capabilities (August 2025)**
+## 📚 **Resources**
 
-**Native UE5.6 Understanding:**
+### **Getting Started**
+- [UE5.6 Editor Integration](/llm/ue56-editor-integration) - Step-by-step setup
+- [General Instructions](/llm/general-instructions) - Essential prompts
+- [Blueprint Generation](/llm/blueprint-generation) - AI-powered Blueprint creation
 
-- Deep knowledge of all UE5.6 systems, APIs, and best practices
-- Real-time Blueprint analysis with visual node understanding
-- Complete project context awareness (100K+ lines of Blueprint logic)
-- Performance optimization with concrete, measurable improvements
+### **Specialized Workflows**
+- [Performance Optimization](/llm/performance-prompts) - Optimization prompts
+- [Asset Creation](/llm/asset-generation-prompts) - AI asset generation
+- [Debugging](/llm/debugging-troubleshooting) - Problem-solving techniques
 
-**Multimodal Intelligence:**
+### **Advanced Topics**
+- [Team Collaboration](/llm/team-collaboration) - Multi-developer workflows
+- [Custom Training](/llm/custom-model-training) - Specialized models
+- [Future Technologies](/llm/future-technologies) - Emerging AI trends
 
-- Analyze Blueprint screenshots and generate optimized alternatives
-- Convert hand-drawn sketches to functional Blueprint systems
-- Process gameplay videos to suggest mechanical improvements
-- Understand 3D scenes and generate appropriate interaction systems
+---
 
-**Predictive Development:**
-
-- Anticipate performance bottlenecks before they occur
-- Suggest architectural improvements based on project trajectory
-- Predict and prevent common Blueprint antipatterns
-- Recommend feature implementations aligned with team velocity
-
-```mermaid
-graph TB
-    A[GPT-5 Core] --> B[Multimodal Processing]
-    A --> C[UE5.6 Expertise]
-    A --> D[Predictive Analysis]
-
-    B --> E[Visual Blueprint Analysis]
-    B --> F[3D Scene Understanding]
-
-    C --> G[System Architecture]
-    C --> H[Performance Optimization]
-
-    D --> I[Bottleneck Prevention]
-    D --> J[Code Quality Prediction]
+**Ready to transform your UE5.6 development with AI? Start with our [Editor Integration Guide](/llm/ue56-editor-integration) for immediate results.**
 
     E --> K[Instant Optimization]
     F --> L[Context-Aware Generation]
